@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Simulador de cores</title>
+    </head>
+    <body>
+        <header>
+            <h1>Simulador de cores</h1>
+        </header>
+        <main>
+            <div>
+                <label class="label">(R) Vermelho:</label>
+                <input
+                    type="range"
+                    id="range-red"
+                    class="input-range"
+                    value="0"
+                    min="0"
+                    max="255"
+                />
+                <input
+                    type="text"
+                    id="text-red"
+                    class="input-selected-value"
+                    value="0"
+                />
+            </div>
+            <div>
+                <label class="label">(G) Verde:</label>
+                <input
+                    type="range"
+                    id="range-green"
+                    class="input-range"
+                    value="0"
+                    min="0"
+                    max="255"
+                />
+                <input
+                    type="text"
+                    id="text-green"
+                    class="input-selected-value"
+                    value="0"
+                />
+            </div>
+            <div>
+                <label class="label">(B) Azul:</label>
+                <input
+                    type="range"
+                    id="range-blue"
+                    class="input-range"
+                    value="0"
+                    min="0"
+                    max="255"
+                />
+                <input
+                    type="text"
+                    id="text-blue"
+                    class="input-selected-value"
+                    value="0"
+                />
+            </div>
+            <div class="div-color-square" id="color-square"></div>
+        </main>
+        <footer>
+            <p class="copyright-text">
+                ©Copyright 2020 by Juliano Canova Frugoli. Bootcamp IGTI
+            </p>
+        </footer>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
